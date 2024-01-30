@@ -68,3 +68,20 @@ header {
     text-transform: uppercase;
     color: #FFEAAE;
 }
+
+/*************************** Panel 2 ******************************************* */
+.panel2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFEAAE;
+}
+
+.txtPan2{
+    width: 50%;
+    margin: 10px;
+}
+
+.imgPan2{
+    margin: 10px;
+}
+
