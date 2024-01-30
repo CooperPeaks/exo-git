@@ -15,7 +15,7 @@ header {
 .headerflex {
     display: flex;
     justify-content: space-between;
-    border: solid red;
+    /* border: solid red; */
     background-color: black;
     opacity: 0.5;
 }
@@ -52,7 +52,7 @@ header {
 /* **************************************Main ******************************/
 
 /**************************** Panel 1 ************************************/
-.pannel1{
+.panel1{
     background-color: #FF8200;
     display: flex;
     justify-content: center;
@@ -73,6 +73,7 @@ header {
 .panel2{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #FFEAAE;
 }
 
@@ -83,5 +84,23 @@ header {
 
 .imgPan2{
     margin: 10px;
+}
+
+/****************************** Panel 3 *********************************************** */
+.panel3{
+    background-color: #FF8200;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.txtPan3 p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+.txtPan3 h1 {
+    text-transform: uppercase;
+    color: #FFEAAE;
 }
 
