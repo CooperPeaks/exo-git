@@ -43,3 +43,7 @@ header {
     font-weight: bold;
     font-size: large;
 }
+
+.background_header img{
+    width: 100%;
+}
